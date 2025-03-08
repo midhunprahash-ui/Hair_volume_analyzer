@@ -12,7 +12,7 @@ def connect_db():
         database="hair_analysis"
     )
 
-# Function to fetch hair volume data
+
 def get_hair_data():
     conn = connect_db()
     cursor = conn.cursor(dictionary=True)
@@ -23,7 +23,7 @@ def get_hair_data():
     conn.close()
     return data
 
-# Function to analyze hair trend
+#
 def analyze_trend():
     data = get_hair_data()
 
@@ -45,3 +45,5 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    if else
+    
